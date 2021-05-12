@@ -52,7 +52,7 @@ Here we see the number of storms each year and the average severity of those sto
 ![Named storms per year](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/storm_count.png)
 ![Average storm severity per year](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/avg_severity.png)
 
-### Machine Learning
+### Machine Learning Models
 
 For my predictive models I chose a k-Nearest Neighbors model for predicting storm categories and a linear regression model for severity prediction. Both models made their predictions using minimum (barometric) pressure with the idea that lower barometric pressure will correlate to a stronger more severe storm.
 
