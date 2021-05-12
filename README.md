@@ -49,14 +49,27 @@ Wind Radii | Point Range
 
 Once this was complete the intensity points and size points were added as a total Hurricane Severity score for each storm.
 
-
+![Named storms per year](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/storm_count.png)
+![Average storm severity per year](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/avg_severity.png)
 
 ### Machine Learning
 
+For my predictive models I chose a k-Nearest Neighbors model for predicting storm categories and a linear regression model for severity prediction. Both models made their predictions using minimum (barometric) pressure with the idea that lower barometric pressure will correlate to a stronger more severe storm.
 
+For the k-Nearest Neighbors model I first tested a range of neighbors, 1 through 9, and found that the most accurate number of neighbors to predict on would be 5
+
+![Selecting the number of neighbors](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/knn_accuracy.png)
+
+![Classification report](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/classification_report.png)
+
+
+
+![Predicted vs actual severity](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/severity_regression.png)
 
 ### Conclusion
 
 
 
 ### Future Improvement
+
+I would like to add more feature data such as sea surface temperature, humidity, etc. to create much more robust models capable of greater accuracy and precision.
