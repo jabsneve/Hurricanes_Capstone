@@ -32,13 +32,22 @@ After converting the text data from the HURDAT2 dataset to a csv file I uploaded
 
 ### EDA & Feature Engineering
 
-In order to acheive the goal of creating the Hurricane Severity feature I first had to calculate the wind field diameter for the 4 wind speed thresholds of 34, 50, 64, & 87 knots.
+The Hurricane Severity Index is the summation of two 25 point scales, one for wind speed intensity and the other for size. To calculate wind speed intensity points was a straight-forward standardization formula where 30 knots equaled 0 and 150 knots equaled 25.
 
-Due to the inconsistent nature of which the winds reach out from the center of the storm the wind fields had to be standardized to create symmetrical circles. this was done by taking the square root of each wind thresholds radius per storm quadrant squared then multiplying by 0.5. 
+Calculating the points awarded to storms for size was more tricky. Due to the inconsistent nature of which the winds reach out from the center of the storm the wind fields had to be standardized to create symmetrical circles. This was accomplished by using the formula below to convert the quadrant radii to a complete diameter.
 
-It will probably be more easily understood to read as a formula
-![Wind Field Formula](C:/Users/jacks/Documents/Springboard/hurricanes_capstone/wind_field_formula.png)
+![Wind Field Formula](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/wind_field_formula.png)
 
+Next I standardized the wind field size to each wind threshold's respective point scale as shown below.
+
+Wind Radii | Point Range
+---------- | -----------
+34 kts | 1-3
+50 kts | 1-4
+64 kts | 1-8
+87 kts | 1-10
+
+Once this was complete the intensity points and size points were added as a total Hurricane Severity score for each storm.
 
 
 
