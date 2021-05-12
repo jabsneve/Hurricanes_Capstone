@@ -26,11 +26,19 @@ After converting the text data from the HURDAT2 dataset to a csv file I uploaded
 * Inconsistencies in storm names
 * Inconsistencies in dates
 * Erroneous time measurements
-  * The NHC's official measurements were recorded in 6 hour intervals (0000, 0600, 1200, 1800)
+  * The NHC's official measurements were recorded in 6-hour intervals (0000, 0600, 1200, 1800)
   * Many observations taken at inconsistent times outside of the proper intervals produced erroneous data which had to be removed
 * Cyclones with maximum sustained winds of less than 30 knots are not included in the HSI and were removed from the dataset
 
 ### EDA & Feature Engineering
+
+In order to acheive the goal of creating the Hurricane Severity feature I first had to calculate the wind field diameter for the 4 wind speed thresholds of 34, 50, 64, & 87 knots.
+
+Due to the inconsistent nature of which the winds reach out from the center of the storm the wind fields had to be standardized to create symmetrical circles. this was done by taking the square root of each wind thresholds radius per storm quadrant squared then multiplying by 0.5. 
+
+It will probably be more easily understood to read as a formula
+![Wind Field Formula](C:/Users/jacks/Documents/Springboard/hurricanes_capstone/wind_field_formula.png)
+
 
 
 
