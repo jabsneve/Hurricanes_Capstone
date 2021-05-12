@@ -47,6 +47,8 @@ Wind Radii | Point Range
 
 Once this was complete the intensity points and size points were added as a total Hurricane Severity score for each storm.
 
+Here we see the number of storms each year and the average severity of those storms.
+
 ![Named storms per year](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/storm_count.png)
 ![Average storm severity per year](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/avg_severity.png)
 
@@ -57,6 +59,8 @@ For my predictive models I chose a k-Nearest Neighbors model for predicting stor
 For the k-Nearest Neighbors model I first tested a range of neighbors, 1 through 9, and found that the most accurate number of neighbors to predict on would be 5
 
 ![Selecting the number of neighbors](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/knn_accuracy.png)
+
+Below you'll see the results of the model's prediction of each storm category.
 
 ![Classification report](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/classification_report.png)
 
