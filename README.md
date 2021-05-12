@@ -1,5 +1,3 @@
-![Image of hurricane from ISS](https://www.insurancejournal.com/app/uploads/2018/09/hurricane-768x512.jpg)
-
 # Hurricane Severity Index and Prediction Model
 
 Since 1973 the Saffir-Simpson Hurricane Wind Scale, better known as the Saffir-Simpson Scale, has been the most widely used classification method for tropical cyclones in the Western Hemisphere aka hurricanes. While this scale does serve the purpose of classifying hurricanes based on wind speed it doesn’t address a few important features of tropical cyclones. 
