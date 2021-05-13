@@ -4,7 +4,7 @@ Since 1973 the Saffir-Simpson Hurricane Wind Scale, better known as the Saffir-S
 
 First, the scale is only able to be used for rating hurricanes – storms with maximum sustained winds of at least 64 knots (74 mph). This leaves out any rating of tropical cyclones such as tropical depressions and tropical storms, whom while having lower sustained winds can still generate destructive force on coastal areas.
 
-The other feature not captured by the Saffir-Simpson scale is the size of the storm. This can be measured by the diameter of the storm’s wind field. Simple logic tells us that the larger the area covered by hurricane force winds the larger the area of devastation. 
+The other feature not captured by the Saffir-Simpson scale is the size of the storm. This can be measured by the circumference of the storm’s wind field. Simple logic tells us that the larger the area covered by hurricane force winds the larger the area of devastation. 
 
 In 2006 Chris Hebert and Bob Weinzapfel released a new method for measuring tropical cyclone severity named the Hurricane Severity Index (HSI). This index considers both wind speed and wind field size in order to provide a scale more representative of the destructive nature of tropical cyclones. What I have done in this project is utilize data in order to re-create the index then create multiple machine learning models that can be used to predict hurricane category and severity based on storm features.
 
