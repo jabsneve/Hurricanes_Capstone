@@ -64,13 +64,13 @@ Below you'll see the results of the model's prediction of each storm category.
 
 ![Classification report](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/classification_report.png)
 
-
+With the goal of predicting storm severity, which is a continuous variable, from a single feature, minimum pressure, it seemed obvious to implement a simple linear regression model here. After running the model it was found it had an R-squared value of 94.2% and a Root Mean Squared Error of 2.73.
 
 ![Predicted vs actual severity](https://github.com/jabsneve/hurricanes_capstone/blob/main/Images/severity_regression.png)
 
 ### Conclusion
 
-
+While this is not a very complex data set it does provide us with enough information to see that there is a strong correlation between minimum pressure and storm severity. This knowledge provided the ability to make two simple yet accurate models for storm predictions of both categorical variables and continuous variables.
 
 ### Future Improvement
 
