@@ -38,7 +38,7 @@ Calculating the points awarded to storms for size was more tricky. Due to the in
 
 Next I standardized the wind field size to each wind threshold's respective point scale as shown below.
 
-Wind Radii | Point Range
+Wind Threshold | Point Range
 ---------- | -----------
 34 kts | 1-3
 50 kts | 1-4
