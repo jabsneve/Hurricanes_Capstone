@@ -54,7 +54,7 @@ Here we see the number of storms each year and the average severity of those sto
 
 ### Machine Learning Models
 
-For my predictive models I chose a k-Nearest Neighbors model for predicting storm categories and a linear regression model for severity prediction. Both models made their predictions using minimum (barometric) pressure with the idea that lower barometric pressure will correlate to a stronger more severe storm.
+For my predictive models I chose a k-Nearest Neighbors model for predicting storm categories and a linear regression model for severity prediction. Both models made their predictions using minimum (barometric) pressure with the idea that lower barometric pressure will correlate to a stronger, more severe storm.
 
 For the k-Nearest Neighbors model I first tested a range of neighbors, 1 through 9, and found that the most accurate number of neighbors to predict on would be 5
 
